@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_dialog_background"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="تعیین میزان کیفیت چاپ:"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_font_size_xlarge"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdbtn_default"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:layoutDirection="rtl"
+            android:padding="8dp"
+            android:text="پیشفرض"
+            android:textAlignment="textStart"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_font_size_large"
+            tools:ignore="RtlCompat" />
+
+        <RadioButton
+            android:id="@+id/rdbtn_high"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:layoutDirection="rtl"
+            android:padding="8dp"
+            android:text="بیشترین کیفیت - سرعت کم"
+            android:textAlignment="textStart"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_font_size_large"
+            tools:ignore="RtlCompat" />
+
+        <RadioButton
+            android:id="@+id/rdbtn_above_average"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:layoutDirection="rtl"
+            android:padding="8dp"
+            android:text="کیفیت خوب - سرعت نسبتا کم"
+            android:textAlignment="textStart"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_font_size_large"
+            tools:ignore="RtlCompat" />
+
+        <RadioButton
+            android:id="@+id/rdbtn_middle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:layoutDirection="rtl"
+            android:padding="8dp"
+            android:text="کیفیت متوسط - سرعت متوسط"
+            android:textAlignment="textStart"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_font_size_large"
+            tools:ignore="RtlCompat" />
+
+        <RadioButton
+            android:id="@+id/rdbtn_low"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:layoutDirection="rtl"
+            android:padding="8dp"
+            android:text="کیفیت ضعیف - سرعت خوب"
+            android:textAlignment="textStart"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_font_size_large"
+            tools:ignore="RtlCompat" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_height"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_ignore_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="انصراف"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:id="@+id/horizontal_separator"
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/dialog_confirm_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="تایید"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sw_types">
+        <item>ایران‌کیش</item>
+        <item>فن‌آوا</item>
+        <item>پارسیان</item>
+        <item>ناواکو</item>
+        <item>سامان</item>
+        <item>پرداخت الکترونیک سپهر</item>
+        <item>پارسیان مهرانا</item>
+        <item>ایران‌کیش 2</item>
+        <item>سایان کارت</item>
+        <item>آیریک</item>
+        <item>پرداخت نوین</item>
+    </string-array>
+
+</resources>

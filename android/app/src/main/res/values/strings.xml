@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Hybrid CP-SDK Demo</string>
+    <string name="result_title">نتیجه پرداخت</string>
+    <string name="fanava_payment_test_title">تست پرداخت فناوا</string>
+    <string name="print_title">پرینت رسید</string>
+    <string name="multiplexing_title">تسهیم</string>
+    <string name="mifare_title">Mifare Test</string>
+    <string name="megnet_title">Magnet Swipe Test</string>
+
+
+    <string-array name="sectors">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="blocks">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="query_mode">
+        <item>استعلام با شناسه پرداخت</item>
+        <item>استعلام با شماره پیگیری</item>
+        <item>استعلام با شماره مرجع</item>
+    </string-array>
+
+    <string name="msg_card_read_error">Read card error!</string>
+    <string name="msg_card_read_succ">Read card success!</string>
+    <string name="msg_card_time_out">Read card time out!</string>
+    <string name="msg_card_close_succ">Close device success!</string>
+    <string name="msg_card_verify_pass_succ">Verify password success!</string>
+    <string name="msg_card_write_op_error">Write operation error!</string>
+    <string name="msg_card_read_op_error">Read operation error!</string>
+    <string name="msg_card_verify_pass_error">Verify password error!</string>
+    <string name="msg_card_exe_apdu_error">Execute APDU error!</string>
+    <string name="msg_card_unplug_card">Card pulled out!</string>
+    <string name="msg_card_open_success">Open device success!</string>
+    <string name="msg_card_wait_for_card">Waiting for card.....</string>
+    <string name="msg_card_open_error">Open device error!</string>
+    <string name="msg_printer_lake_paper">Printer lakes of paper!</string>
+
+</resources>

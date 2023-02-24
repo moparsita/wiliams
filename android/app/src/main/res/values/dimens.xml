@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="device_main_width">500px</dimen>
+    <dimen name="device_padding">10px</dimen>
+    <dimen name="device_main_left">500px</dimen>
+    <dimen name="device_main_right">150px</dimen>
+    <dimen name="device_main_height">100px</dimen>
+    <dimen name="device_main_padding">60px</dimen>
+
+    <dimen name="mag_text_width">780px</dimen>
+    <dimen name="mag_right_width">200px</dimen>
+    <dimen name="mag_btn_width">200px</dimen>
+    <dimen name="mag_btn_height">50px</dimen>
+    <dimen name="btn_padding">5px</dimen>
+
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="print_font_size_small">10sp</dimen>
+    <dimen name="print_font_size_medium">12sp</dimen>
+    <dimen name="print_font_size_large">14sp</dimen>
+    <dimen name="print_font_size_xlarge">16sp</dimen>
+    <dimen name="text_font_size_small">13sp</dimen>
+    <dimen name="text_font_size_medium">16sp</dimen>
+    <dimen name="text_font_size_xlarge">23sp</dimen>
+    <dimen name="text_font_size_large">20sp</dimen>
+    <dimen name="btn_font_size">22sp</dimen>
+    <dimen name="main_padding">20dp</dimen>
+    <dimen name="normal_height">65dp</dimen>
+    <dimen name="large_height">60dp</dimen>
+    <dimen name="space_height">25dp</dimen>
+    <dimen name="small_icon_size">30dp</dimen>
+
+    <dimen name="finger_radius">56dp</dimen>
+    <dimen name="normal_width">310dp</dimen>
+    <dimen name="image_wdth">200dp</dimen>
+    <dimen name="dialog_height">200dp</dimen>
+    <dimen name="tran_report_height">500dp</dimen>
+    <dimen name="help_dialog_height">460dp</dimen>
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="half_padding">7dp</dimen>
+    <dimen name="wheel_normal_height">155dp</dimen>
+
+</resources>

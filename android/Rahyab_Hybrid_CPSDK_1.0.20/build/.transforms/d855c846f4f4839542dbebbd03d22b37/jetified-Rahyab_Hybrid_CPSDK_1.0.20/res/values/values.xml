@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">rahyab</string>
+    <string name="msg_printer_has_paper">پرینتر کاغذ دارد</string>
+    <string name="msg_printer_lake_paper">پرینتر کاغذ ندارد</string>
+    <string name="msg_printer_print_error">خطا در چاپ</string>
+    <string name="print_water_mark_en">Non-payment receipt</string>
+    <string name="print_water_mark_fa">رسید  غیر  بانکی</string>
+</resources>

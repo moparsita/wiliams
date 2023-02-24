@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="384px"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_header_container"
+        android:layout_width="384px"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_header_water_mark"
+            android:layout_width="384px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#aaa"
+            android:gravity="center"
+            android:text="@string/print_water_mark_fa"
+            android:textColor="#eee"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_reports_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_container"
+        android:layout_width="384px"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="70px">
+
+        <TextView
+            android:id="@+id/tv_footer_water_mark"
+            android:layout_width="384px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#aaa"
+            android:gravity="center"
+            android:text="@string/print_water_mark_fa"
+            android:textColor="#eee"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</LinearLayout>
